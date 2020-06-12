@@ -1,0 +1,25 @@
+{
+  "name": "frontend-assigment",
+  "version": "1.0.0",
+  "description": "Este es un simple test para determinar tus conocimientos y habilidades de Frontend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrdiazr/frontend-assigment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrdiazr/frontend-assigment/issues"
+  },
+  "homepage": "https://github.com/jrdiazr/frontend-assigment#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
