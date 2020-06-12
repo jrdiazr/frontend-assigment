@@ -4,7 +4,11 @@
   "description": "Este es un simple test para determinar tus conocimientos y habilidades de Frontend.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "server": "json-server --port 5000 --watch mockup/article.json"
   },
   "repository": {
     "type": "git",
