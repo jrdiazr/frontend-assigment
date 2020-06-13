@@ -46,7 +46,7 @@ export const NewInfo = styled.div`
   padding-bottom: 5px;
 `;
 
-export const Title = styled.p`
+export const Title = styled.h4`
   margin: 0;
   font-weight: 700;  
 `;
