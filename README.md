@@ -34,3 +34,39 @@ Puntos extras:
 - Unit testing.
 - Linting y Prettier
 - Docker
+
+# Solucion a la prueba
+
+## Tecnologias
+>Next Js
+>React Js
+>React Hooks
+>Styled Components
+>Feather Icons
+>Json server
+>Isomorphic fetch
+>Semistandard
+
+## Instrucciones de uso
+
+La aplicacion se visualiza bien en pantallas con resolucion igual o superior a 1100px de ancho.
+
+![image](https://drive.google.com/uc?export=view&id=1G74sHWvin_o90KAfrWC-xOzlohQ3gRHX)
+
+#### Instalacion de dependencias:
+```
+npm install
+npm install -g semistandard
+```
+#### Ejecutar servidor archivo json:
+```
+npm run server
+```
+#### Verificacion del linter
+```
+npm run lint
+```
+#### Ejecucion de la aplicacion
+```
+npm run dev
+```
