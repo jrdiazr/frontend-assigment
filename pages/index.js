@@ -20,6 +20,9 @@ const index = ({ article }) => {
             font-size: 14px;
             background: #edebeb;
           }
+          p {
+            text-align: justify;
+          }
         `}
       </style>
     </>

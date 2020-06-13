@@ -5,7 +5,7 @@ import Icon from 'feather-icons-react';
 const SearchBar = ({ searchText }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`You are searching ${searchText.value} text`);
+    window.alert(`You are searching ${searchText.value} text`);
   };
   return (
     <Container onSubmit={handleSubmit}>
