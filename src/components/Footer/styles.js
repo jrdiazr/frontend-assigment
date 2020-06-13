@@ -15,6 +15,7 @@ export const Footer = styled.footer`
 export const Anchor = styled.a`
   color: white;
   text-decoration: none;  
+  cursor: pointer;
 `;
 
 export const About = styled.p`

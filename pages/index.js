@@ -2,13 +2,14 @@ import React from 'react';
 import useInput from '../src/hooks/useInput';
 import Layout from '../src/containers/Layout';
 import MainNew from '../src/components/MainNew';
+import Api from '../src/utils/api';
 
-const index = () => {
+const index = ({ article }) => {
   const searchText = useInput('');
   return (
     <>
       <Layout searchText={searchText} notifications={13}>
-        <MainNew />
+        <MainNew article={article} />
       </Layout>
       <style jsx global>
         {`
@@ -24,5 +25,14 @@ const index = () => {
     </>
   );
 };
+
+export async function getStaticProps () {
+  const data = await Api.getArticles();
+  return {
+    props: {
+      article: data
+    }
+  };
+}
 
 export default index;

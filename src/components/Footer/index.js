@@ -1,15 +1,36 @@
 import React from 'react';
 import { Footer, Anchor, About } from './styles';
 import TransparentLogo from '../TransparentLogo';
+import Link from 'next/link';
 
 export default function index () {
   return (
     <Footer>
-      <Anchor href='/'><TransparentLogo /></Anchor>
-      <Anchor href=''>Preguntas frecuentes</Anchor>
-      <Anchor href=''>Contáctanos</Anchor>
-      <Anchor href=''>Informacíon</Anchor>
-      <About href=''>DocRed © 2019. Todos los derechos reservados</About>
+      <Link href='/'>
+        <Anchor>
+          <TransparentLogo />
+        </Anchor>
+      </Link>
+      <Link href='/'>
+        <Anchor>
+          Preguntas frecuentes
+        </Anchor>
+      </Link>
+      <Link href='/'>
+        <Anchor>
+          Contáctanos
+        </Anchor>
+      </Link>
+      <Link href='/'>
+        <Anchor>
+          Informacíon
+        </Anchor>
+      </Link>
+      <Link href='/'>
+        <Anchor>
+          <About href=''>DocRed © 2019. Todos los derechos reservados</About>
+        </Anchor>
+      </Link>
     </Footer>
   );
 }

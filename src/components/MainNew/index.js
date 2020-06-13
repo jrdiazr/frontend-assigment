@@ -1,14 +1,15 @@
 import React from 'react';
 import { MainContainer } from './styles';
 import CardList from './../CardList';
+import Article from '../Article';
 
-const ArticleLayout = () => {
+const MainNew = ({ article }) => {
   return (
     <MainContainer>
-      <h1>Article</h1>
+      <Article {...article} image={undefined} />
       <CardList />
     </MainContainer>
   );
 };
 
-export default ArticleLayout;
+export default MainNew;

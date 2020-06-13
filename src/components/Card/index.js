@@ -2,11 +2,11 @@ import React from 'react';
 import { Title, Author, StatsContainer, Stats, Image, CardContainer, NewInfo, ImageContainer, ImageLabel, NumberStat } from './styles';
 import Icon from 'feather-icons-react';
 
-const Card = ({ title, author, likes, comments, views }) => {
+const Card = ({ title, author, likes, comments, views, image }) => {
   return (
     <CardContainer>
       <ImageContainer>
-        <Image />
+        <Image src={image} />
         <ImageLabel>Noticia</ImageLabel>
       </ImageContainer>
       <div>
