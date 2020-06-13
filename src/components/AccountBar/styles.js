@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const AccountBarContainer = styled.ul`
+  margin: 0;
+  padding: 0;
   height: 40px;
   display: grid;
   width: 100%;

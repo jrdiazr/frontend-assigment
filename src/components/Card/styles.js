@@ -22,6 +22,7 @@ export const Image = styled.img`
   height: 100%;
   border-radius: 5px;
   border: 1px solid #000;
+  object-fit: cover;
 `;
 
 export const ImageLabel = styled.p`
@@ -66,9 +67,13 @@ export const StatsContainer = styled.div`
   padding-top: 5px;
 `;
 
-export const Stats = styled.div`
+export const Stats = styled.button`
   display: flex;  
   align-items: center;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
 `;
 
 export const NumberStat = styled.span`
