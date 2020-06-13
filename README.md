@@ -39,13 +39,21 @@ Puntos extras:
 
 ## Tecnologias
 > Next Js
+>
 > React Js
+>
 > React Hooks
+>
 > Styled Components
+>
 > Feather Icons
+>
 > Json server
+>
 > Isomorphic fetch
+>
 > Semistandard
+>
 
 ## Instrucciones de uso
 
